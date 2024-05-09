@@ -1,8 +1,79 @@
-#links{
-    text-align: right;
-    margin: 20px;
+body {
+    font-size: small;
+    font-family: arial, sans-serif;
 }
 
-.search {
+.navigation {
+    height: 48px;
+    padding-bottom: 4px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navigation #links {
+    padding-right: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation #links a {
+    padding-left: 15px;
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+}
+
+.navigation #links a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    padding-top: 159px;
+    height: 131px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.nav-bar {
+    display: flex;
+    z-index: 3;
+    position: relative;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 544px;
+    max-width: 544px;
+    margin-top: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.button-unit {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
     text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.buttons {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
 }
