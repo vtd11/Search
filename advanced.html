@@ -7,29 +7,93 @@
     </head>
 
     <body>
-        <!-- The top part of the screen, including 1 link : Google Search -->
-        <div class="banner">
+        <!-- The top part of the screen, displaying the Google Logo and a link to Google Search -->
+        <div class="adv_banner">
+            <div>
+                <img class="upper_left_logo" src="google_logo.png" alt="Google Logo">
+            </div>
             <div class="link">
                 <a href="index.html">Google Search</a>
             </div>
         </div>
 
-        <!-- The middle part of the screen, only displaying the logo -->
-        <div class="logo">
-            <img src="google_logo.png" alt="Google Logo">
+        <div class="adv_title">
+            <p>Advanced Search</p>
         </div>
 
-        <!-- The bottom part of the screen, displaying the navigation bar, the Google Search button and the I'm Feeling Lucky button -->
-        <div class="navigation">
+        <div class="adv_bottom">
+            <!-- The bottom part of the screen, displaying the navigation bar, the Google Search button and the I'm Feeling Lucky button -->
             <form action="https://www.google.com/search">
-                <div class="bar">
-                    <input type="text" name="q">
+
+                <!-- The first row : Titles -->
+                <div class="row">
+                    <div class="adv_subtitle">
+                        <p>Find pages with...</p>
+                    </div>
+                    <div class="adv_tips_subtitle">
+                        <p>To do this in the search box.</p>
+                    </div>
                 </div>
-                <div class="search_button">
+                
+                <!-- The second row -->
+                <div class="row">
+                    <div class="adv_instruction">
+                        <p>all these words:</p>
+                    </div>
+                    <div>
+                        <input class="adv_bar" type="text" name="as_q">
+                    </div>
+                    <div class="adv_description">
+                        <p>Type the important words: tri-colour rat terrier</p>
+                    </div>
+                </div>
+                
+                <!-- The third row -->
+                <div class="row">
+                    <div class="adv_instruction">
+                        <p>this exact word or phrase:</p>
+                    </div>
+                    <div>
+                        <input class="adv_bar" type="text" name="as_epq">
+                    </div>
+                    <div class="adv_description">
+                        <p>Put exact words in quotes: "rat terrier"</p>
+                    </div>
+                </div>
+
+                <!-- The fourth row -->
+                <div class="row">
+                    <div class="adv_instruction">
+                        <p>any of these words:</p>
+                    </div>
+                    <div>
+                        <input class="adv_bar" type="text" name="as_oq">
+                    </div>
+                    <div class="adv_description">
+                        <p>Type OR between all the words you want: miniature OR standard</p>
+                    </div>
+                </div>
+
+                <!-- The fifth row -->
+                <div class="row">
+                    <div class="adv_instruction">
+                        <p>none of these words:</p>
+                    </div>
+                    <div>
+                        <input class="adv_bar" type="text" name="as_eq">
+                    </div>
+                    <div class="adv_description">
+                        <p>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</p>
+                    </div>
+                </div>
+                
+                <!-- Advanced Search button -->
+                <div class="adv_search_button">
                     <input type="submit" value="Google Search">
                 </div>
             </form>
         </div>
+
     </body>
 
 </html>

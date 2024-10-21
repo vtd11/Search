@@ -23,7 +23,7 @@ a:hover{
 }
 
 .logo{
-    height: 350px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: last baseline;
@@ -48,4 +48,63 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: first baseline;
+}
+
+.adv_banner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.upper_left_logo{
+    height: 25px;
+}
+
+.adv_title{
+    color: #d93025;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-left: 25px;
+    border-bottom: 1px solid #ebebeb;;
+}
+
+.adv_bottom{
+    display: flex;
+    margin-top: 20px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.adv_subtitle{
+    color: #333;
+    font-size: 16px;
+}
+
+.adv_tips_subtitle{
+    color: #777;
+    font-size: 13px;
+    font-weight: 700;
+    padding-left: 635px;
+}
+
+.adv_instruction{
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    width: 180px;
+}
+
+.adv_bar{
+    width: 570px;
+}
+
+.adv_description{
+    color: #666;
+    font-size: 11px;
+    padding-left: 10px;
 }
