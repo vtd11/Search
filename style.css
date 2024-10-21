@@ -31,7 +31,6 @@ a:hover{
 }
 
 .navigation{
-    height: auto;
     display: flex;
     justify-content: center;
     align-items: first baseline;
@@ -41,14 +40,44 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: first baseline;
+    height: 44px;
+    width: 584px;
     margin-bottom: 20px;
+    border: 1px solid #dfe1e5;
     border-radius: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+}
+
+.bar:hover{
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
 }
 
 .search_button{
     display: flex;
     justify-content: center;
     align-items: first baseline;
+    margin-top: 20px;
+}
+
+.button{
+    display: flex;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    height: 36px;
+    min-width: 54px;
+    padding: 0 16px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.button:hover{
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+    border: 1px solid #d2d2d2;;
 }
 
 .adv_banner{
@@ -102,6 +131,9 @@ a:hover{
 
 .adv_bar{
     width: 570px;
+    height: 25px;
+    border: 1px solid #d9d9d9;
+    border-radius: 1px;
 }
 
 .adv_description{
@@ -111,7 +143,7 @@ a:hover{
 }
 
 .adv_search_button{
-    background-color: #357ae8;
+    background-color: #4787ed;
     color: #fff;
     border-radius: 2px;
     border: 1px solid #3079ed;
