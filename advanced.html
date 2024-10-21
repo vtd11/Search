@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
-        <title>Search</title>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="style.css"> 
     </head>
+
     <body>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <!-- The top part of the screen, including 1 link : Google Search -->
+        <div class="banner">
+            <div class="link">
+                <a href="index.html">Search</a>
+            </div>
+        </div>
+
+        <!-- The middle part of the screen, only displaying the logo -->
+        <div class="logo">
+            <img src="google_logo.png" alt="Google Logo">
+        </div>
+
+        <!-- The bottom part of the screen, displaying the navigation bar, the Google Search button and the I'm Feeling Lucky button -->
+        <div class="navigation">
+            <form action="https://www.google.com/search">
+                <div class="bar">
+                    <input type="text" name="q">
+                </div>
+                <div class="search_button">
+                    <input type="submit" value="Google Search">
+                </div>
+            </form>
+        </div>
     </body>
+
 </html>
